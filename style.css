@@ -2,3 +2,16 @@ body
 {
     background: aqua;
 }
+ul li{
+    display : inline;
+    list-style-type: none;
+}
+.nav
+{
+    clear: both
+}
+ul
+{
+    background: black;
+    color: white;
+}
