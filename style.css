@@ -1,23 +1,11 @@
-body
-{
-    background: aqua;
-}
-ul li{
-    display : inline;
-    list-style-type: none;
-}
-.nav
-{
-    clear: both
-}
-ul
-{
-    background: black;
-    color: white;
-}
+
 a:hover
 {
     background-color: red ;
-    color: yellow;
+    color: darkblue;
     transition: all 0.5s;
+}
+div.adres{
+    width: 100%;
+    margin-left: 15px ;
 }
