@@ -7,7 +7,8 @@ a:hover
 }
 div.adres{
     width: 100%;
-    margin-left: 15px ;
+    margin-left: 25px ;
+    margin-top: 15px;
 }
 div.myButton {
     display: none;
@@ -25,10 +26,14 @@ div.myButton {
     border-radius: 4px;
 }
 
-myButton:hover {
+.myButton:hover {
     background-color: #555;
 }
 .paragraph {
     background-color: white;
     padding: 30px 30px 2500px;
+}
+.show-info
+{
+    display:block !important;
 }
