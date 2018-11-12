@@ -64,7 +64,8 @@
         event.preventDefault();
         if (imie.value === '' || !parseInt(imie.value) || isNaN(imie.value) || imie.length < 1 || imie.length > 100) {
 
-            imie.className = "name-info valid-feedback show-info ";
+            imie.className = "name-info invalid-feedback";
+            imie.style.display = "block";
         }
         else {
             imie.className = "name-info invalid-feedback";

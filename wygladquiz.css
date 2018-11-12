@@ -1,0 +1,76 @@
+body {
+    background-color: grey;
+}
+.quiz
+{
+    background-color: darkgrey;
+    width: 700px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 90px;
+}
+.quiz #pytanie{
+    font-family: Arial;
+    font-size: 30px;
+    color: mediumpurple;
+    margin-left: 30px;
+}
+.opcje1 {
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.opcje2 {
+    display:none;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+#start, #historia, #previous, #next{
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    border: 2px solid purple;
+    border-radius: 50px;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 10px;
+}
+.przyciski {
+    display: none;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#przycisk1, #przycisk2, #przycisk3, #przycisk4 {
+    background-color: rebeccapurple;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    color: black;
+    border: 2px solid purple;
+    border-radius: 50px;
+    margin: 10px 24px 10px 24px;
+    padding: 10px 10px;
+}
+#przycisk1:hover, #przycisk2:hover, #przycisk3:hover, #przycisk4:hover, #start:hover, #historia:hover, #previous:hover, #next:hover{
+    background-color: mediumpurple;
+}
+.tablicawynikow{
+    display: none;
+    background-color: dodgerblue;
+    width: 700px;
+    height: 300px;
+    font-size: 60px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 70px 0px 0px 0px;
+    padding: auto;
+    text-align: center;
+}
+
+
