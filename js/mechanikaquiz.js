@@ -22,6 +22,7 @@ let dalej = document.getElementById("next");
 wstecz.addEventListener("click", poprzednie);
 dalej.addEventListener("click", nastepne);
 let opcja1 = document.getElementById("przycisk1");
+console.log(opcja1)
 let opcja2 = document.getElementById("przycisk2");
 let opcja3 = document.getElementById("przycisk3");
 let opcja4 = document.getElementById("przycisk4");
@@ -84,18 +85,28 @@ function nastepne() {
         }
     }
 }
-function wybierzodpowiedz() {
+function wybierzodpowiedz(event) {
+    console.log(event.target)
+    if(event.target.innerHTML === poprawne[0]) {
+        console.log(event)
+    }
+
+
     if(obecnepytanie === 0){
         if(opcja1.innerHTML === poprawne[0]){
+            console.log(1)
             punkty++;
         }
         else if (opcja2.innerHTML === poprawne[0]) {
+            console.log(2)
             punkty++;
         }
         else if (opcja3.innerHTML === poprawne[0]) {
+            console.log(3)
             punkty++;
         }
         else if (opcja4.innerHTML === poprawne[0]) {
+            console.log(4)
             punkty++;
         }
         alert("Poprawna odpowiedź to : " + poprawne[0]);
@@ -115,5 +126,6 @@ else{
     }
     alert("Poprawna odpowiedź to : " + poprawne[obecnepytanie/5]);
 }
+    opcja1.children[0].innerHTML
 }
 
